@@ -1,0 +1,103 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.controls {
+	padding:10px;
+}
+.controls a  {
+	padding:4px;
+	font-size:140%;
+}
+.controls a.selected {
+	border:1px solid blue;
+	background-color:#DADADA;
+	padding:3px;
+}
+#gameboard div {
+	font-size:140%;
+}
+#gameboard input {
+	width:40px;
+	font-size:120%;
+}
+#score{
+	position:absolute;
+	top:20px;
+	right:50px;
+	border:1px dashed green;
+	padding:5px;
+	margin:5px;
+	min-width:50px;
+	font-size:200%;
+}
+.error{
+	border:dotted 1px red;
+}
+#parts{
+	position:absolute;
+	left:-10000px;
+}
+.form-row{
+	padding:5px;
+}
+.form-row input {
+	width:100px;
+}
+.form-row label {
+	width:85px;
+	display:inline-block;
+}
+.form-row label:after{
+	content:': ';
+}
+.base-panel {
+	text-align:center;
+}
+.yui3-overlay-mask { background: rgba(255, 255, 255, 0.75); }
+
+.yui3-widget #optsOverlay {
+	display: block;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	padding: 10px;
+}
+#optsOverlay .yui3-widget-hd {
+	border: #3B5998 1px solid;
+	color: #fff;
+	padding: 0 10px;
+	background: #066dab; /* Old browsers */
+	background: -moz-linear-gradient(top, #066dab 0%, #8abbd7 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#066dab), color-stop(99%,#8abbd7)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #066dab 0%,#8abbd7 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #066dab 0%,#8abbd7 99%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #066dab 0%,#8abbd7 99%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#066dab', endColorstr='#8abbd7',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #066dab 0%,#8abbd7 99%); /* W3C */
+}
+#optsOverlay .yui3-widget-hd h2{
+	text-shadow: 2px 2px 6px #000000; 
+}
+#optsOverlay .yui3-widget-bd {
+	background: #fff;
+	border: #555 1px solid;
+	border-top: none;
+	border-bottom : none;
+	padding: 10px;
+}
+#optsOverlay .yui3-widget-ft {
+	border: #555 1px solid;
+	border-top: none;
+	background: #f2f2f2;
+}
+#optsOverlay .yui3-widget-ft > div {
+	border-top: #ccc 1px solid;
+	padding: 5px 10px;
+	text-align: right;
+}

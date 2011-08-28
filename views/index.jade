@@ -1,0 +1,28 @@
+#body
+	h1= heading
+	#container
+		hr
+		#gameboard
+	#score 0
+	#parts
+		#optsOverlay
+			.yui3-widget-hd
+				h2 Choose
+			.yui3-widget-bd
+		.base-panel
+			button#show-login Login
+			br
+			button#scores View High Scores
+			br
+			button#quick-start Start Playing
+		.login-panel
+			.form-row
+				label Name
+				input(id='login-name',name='login-name',type='text')
+			.form-row
+				label Password
+				input(id='password',name='password',type='password')	
+			.form-row
+				button(id='do-login',value='Login')
+				button(id='cancel-login',value='Cancel')
+	script(src='/javascripts/bootstrap.js') 
